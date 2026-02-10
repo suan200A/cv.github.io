@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Jhonatan Calderon Campos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #121212;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: #1e1e1e;
+            margin: auto;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        header {
+            border-bottom: 3px solid #4da6ff;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .header-text h1 {
+            margin: 0;
+            color: #4da6ff;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            text-align: right;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4da6ff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        h2 {
+            color: #4da6ff;
+            border-left: 5px solid #4da6ff;
+            padding-left: 10px;
+            margin-top: 30px;
+            text-transform: uppercase;
+            font-size: 1.2em;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+        .date {
+            font-weight: bold;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+        .job-title {
+            font-weight: bold;
+            display: block;
+            margin-top: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .profile-desc {
+            text-align: justify;
+        }
+        a {
+            color: #4da6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+            text-decoration: none;
+        }
+        .cert-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+            border: 2px solid #4da6ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="header-left">
+            <img src="fotos/jhonatan.png" alt="Foto de Jhonatan" class="profile-pic">
+            <div class="header-text">
+                <h1>Jhonatan Calderon Campos</h1>
+                <p>DNI: 6140271213</p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p>📍 Mariátegui e Islas, Pío Pata, El Tambo</p>
+            <p>� 919762007</p>
+            <p>✉️ suanzamorarozales01@gmail.com</p>
+            <a href="https://wa.me/51919762007" class="whatsapp-btn" target="_blank">📱 Contactar por WhatsApp</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p class="profile-desc">
+            Persona comprometida con los objetivos de la empresa y dispuesto a asumir desafíos y responsabilidades. 
+            Me destaco por ser eficaz en la atención al cliente, ofreciendo un trato cordial y soluciones que generan confianza. 
+            Cuento con facilidad para trabajar en equipo bajo presión y actualmente fortalezco mis habilidades estudiando en <strong>SENATI</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        
+        <div class="experience-item">
+            <span class="date">13 de julio 2025 - 17 de noviembre 2025</span>
+            <span class="job-title">BIT INFORMATIC GROUP EIRL</span>
+            <p><strong>Puesto:</strong> Prácticas Profesionales (IV Semestre)</p>
+            <ul>
+                <li>Desarrollo de un sistema web médico para la gestión de citas médicas.</li>
+                <li>Proyecto aprobado exitosamente.</li>
+                <li><strong>Repositorio:</strong> <a href="https://github.com/suan200A/sistema-web-m-dico-para-la-gesti-n-de-citas-m-dicas..git" target="_blank">Ver código en GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <span class="date">02 de febrero de 2024 - 05 de junio de 2025</span>
+            <span class="job-title">GONZABOR</span>
+            <p><strong>Puesto:</strong> Mesero y Cajero</p>
+            <ul>
+                <li>Atención al cliente y servicio de mesero.</li>
+                <li>Encargado de cobrar pedidos y atención en línea.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <span class="date">13 de agosto de 2022 - 28 de diciembre de 2023</span>
+            <span class="job-title">EL RINCONCITO AYACUCHANO</span>
+            <p><strong>Puesto:</strong> Mesero y Ayudante de Cocina</p>
+            <ul>
+                <li>Atención al cliente y servicio de mesa.</li>
+                <li>Colaboración activa en labores de cocina.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <span class="date">04 de septiembre de 2021 - 05 de junio de 2022</span>
+            <span class="job-title">EL AMANECER DE MARLEY</span>
+            <p><strong>Puesto:</strong> Atención Eficaz y Organización</p>
+            <ul>
+                <li>Toma de pedidos de clientes.</li>
+                <li>Organización y mantenimiento del inventario.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div class="education-item">
+            <p><strong>Superior:</strong> Servicio Nacional de Adiestramiento en Trabajo Industrial (SENATI)</p>
+            <p><strong>Secundaria:</strong> Nuestra Señora de Fátima</p>
+            <p><strong>Primaria:</strong> Nuestra Señora de Fátima</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certificados</h2>
+        <div>
+            <img src="fotos/certificado.png" alt="Certificado" class="cert-img">
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
